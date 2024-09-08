@@ -35,4 +35,6 @@ td{
 }
 p{
     color: red;
+    margin: 30px;
+    text-shadow: 10px 10px 10px #000;
 }
