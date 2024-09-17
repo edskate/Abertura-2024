@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Continuation 01</title>
+    <link rel="stylesheet" href="style.css">
 <style>
     body{
         background-color: black;
@@ -17,11 +18,23 @@
         margin: 50px;
      
     }
+
+div .container {
+ background-color: rgb(0, 0, 0);
+    display: flex;
+}
+div .item {
+    border: 1px solid black;
+    padding: 10px;
+    background-color: rgb(0, 0, 0);
+}
 </style>
     
 </head>
 <body>
     <h1>Projeto- criando uma Tabela de programação:</h1>
+    <div class="container">
+        <div class="item">
     <table border="3" style="color: blue;" width="300">
         <tr>
             <th style="color: aqua">Intensivo 3</th>
@@ -45,7 +58,11 @@
             <td bgcolor="3" style="color: darkorange;"></td>
         </tr>
       </table>
+        </div>
+    </div>
       <h1>Intensivo 3</h2>
+        <div class="container">
+            <div class="item">
       <table border="3" style="color: blue;" width="300">
         <tr>
             <th style="color: aqua">Intensivo 3</th>
@@ -69,8 +86,12 @@
         <td style="color: aqua"></td>
     </tr>
     </table>
+            </div>
+        </div>
     <hr>
    <h1>Intensivo 4</h1>
+   <div class="container">
+    <div class="item">
      <table border="3" style="color: blue;" width="300">
         <tr>
             <th style="color: aqua">Intensivo 3</th>
@@ -87,6 +108,8 @@
             <td style="color: aqua"></td>
         </tr>
      </table>
+    </div>
+   </div>
     <hr>
     <a href="index02.html">Next'</a>
 </body
