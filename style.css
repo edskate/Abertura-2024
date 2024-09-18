@@ -41,4 +41,23 @@ p{
     margin: 30px;
     text-shadow: 10px 10px 10px #000;
 }
+h3{
+    color: greenyellow;
+    text-shadow: -1px -1px -1px #000;
+}
+li{
+    color: white;
+    text-shadow: -1px -1px -1px #001b17;
+}
 
+div .container {
+    background-color: orange;
+    display: flex;
+    padding: 10px;
+}
+div .item {
+background-color: rgb(48, 34, 6);
+width: 500px;
+border: 2px solid #16e4c5;
+box-shadow: 1px 1px 10px #f4a9a9;
+}
